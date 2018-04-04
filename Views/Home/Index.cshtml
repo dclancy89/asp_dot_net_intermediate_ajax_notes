@@ -1,0 +1,19 @@
+<h1>Success!</h1>
+
+@foreach(var note in ViewBag.Notes)
+{
+    <form class="note" action='notes/@note["id"]/delete'>
+        <label>@note["title"]</label>
+        <input type="submit" value="Delete">
+        <p>@note["content"]</p>
+    </form>
+}
+
+<hr />
+
+<form action="notes/save" method="post" id="new_note">
+    <label>
+        <input type="text" name="title" placeholder="Add a new note...">
+    </label>
+    <input type="submit" value="Add Note">
+</form>

@@ -1,0 +1,10 @@
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/Ajax Notes/bin/Debug/netcoreapp2.0/Ajax Notes.deps.json
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/Ajax Notes/bin/Debug/netcoreapp2.0/Ajax Notes.runtimeconfig.json
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/Ajax Notes/bin/Debug/netcoreapp2.0/Ajax Notes.runtimeconfig.dev.json
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/Ajax Notes/bin/Debug/netcoreapp2.0/Ajax Notes.dll
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/Ajax Notes/bin/Debug/netcoreapp2.0/Ajax Notes.pdb
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/Ajax Notes/obj/Debug/netcoreapp2.0/Ajax Notes.csproj.CoreCompileInputs.cache
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/Ajax Notes/obj/Debug/netcoreapp2.0/Ajax Notes.AssemblyInfoInputs.cache
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/Ajax Notes/obj/Debug/netcoreapp2.0/Ajax Notes.AssemblyInfo.cs
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/Ajax Notes/obj/Debug/netcoreapp2.0/Ajax Notes.dll
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/Ajax Notes/obj/Debug/netcoreapp2.0/Ajax Notes.pdb
