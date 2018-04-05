@@ -1,13 +1,14 @@
 <h1>Success!</h1>
-
+<div id="notes">
 @foreach(var note in ViewBag.Notes)
 {
-    <form class="note" action='notes/@note["id"]/delete'>
+    <form class="note" action='notes/@note["id"]'>
         <label>@note["title"]</label>
         <input type="submit" value="Delete">
         <p>@note["content"]</p>
     </form>
 }
+</div>
 
 <hr />
 

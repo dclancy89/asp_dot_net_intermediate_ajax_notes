@@ -24,23 +24,33 @@ namespace Ajax_Notes
 
         [HttpPost]
         [Route("notes/save")]
-        public IActionResult Save(string title)
+        public string Save(string title)
         {
             string content = "Insert Content...";
             string query = $"INSERT INTO notes (title, content, created_at, updated_at) VALUES ('{title}', '{content}', NOW(), NOW())";
             cxn.Execute(query);
-            string note_string = "<form><label>" + title + "</label></form>";
-
-            return RedirectToAction("Index");
+            List<Dictionary<string, object>> note = cxn.Query($"SELECT id, title, content, created_at, updated_at FROM notes WHERE title='{title}'");
+            string note_string = @"<form class='note' action='notes/" + note[0]["id"] + "'><label>" + title + "</label><input type='submit' value='delete'><p>Insert Content...</p></form>";
+            
+            return note_string;
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("notes/{id}/delete")]
-        public IActionResult Delete(string id)
+        public string Delete(string id)
         {
             string query = $"DELETE FROM notes WHERE id={id}";
             cxn.Execute(query);
-            return RedirectToAction("Index");
+            return "Success!";
+        }
+
+        [HttpPost]
+        [Route("notes/{id}/update")]
+        public string Update(string id, string content)
+        {
+            string query = $"UPDATE notes SET content=\"{content}\" WHERE id={id}";
+            cxn.Execute(query);
+            return "Success!";
         }
     }
 }
